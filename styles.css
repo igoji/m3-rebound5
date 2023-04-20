@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 2rem;
+}
+
+header{
+    text-align: center;
+
+}
+
+h1{
+    display: inline;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right, salmon, blueviolet );
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* form */
+div.container-fluid{
+    width: 70%;
+    margin-bottom: 3rem;
+}
+
+.form-control {
+    border: 0;
+    box-shadow: none; 
+    border-radius: 0;
+}
+
+form#user-data label{
+    color: blueviolet;
+}
+
+button.boton{
+    background-image: linear-gradient(to right, salmon, rgb(52, 54, 150));
+    border: 0;
+    padding: 0.5rem 4rem 0.5rem 4rem;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+form#user-data input{
+    border-bottom: solid blueviolet 2px;
+}
+
+section.display-user{
+    display: flex;
+    justify-content: center;
+}
+
+div.card-display{
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 3px rgb(216, 216, 216);
+}
+
+div.left-display{
+    background-image: linear-gradient(to right, salmon, rgb(52, 54, 150) );
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+
+.left-display img{
+    width: 60%;
+    margin-top: 3rem;
+}
+
+.left-display h2{
+    font-size: 1rem;
+    text-align: center;
+}
+
+#nombre-display{
+    margin-top: 2rem;
+    font-weight: bold;
+}
+
+#trabajo-display{
+    margin-bottom: 2rem;
+}
+
+
+div.right-display{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 0 1.5rem 0 1.5rem;
+    padding-top: 2rem;
+
+}
+
+.right-display p{
+    color: rgb(155, 155, 155);
+    font-weight: bold;
+}
+
+div.right-display h2{
+    font-size: 1rem;
+    border-bottom: rgb(194, 194, 194) solid 1px;
+    font-weight: bold;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+div.info-display{
+    display: flex;
+    justify-content:left;
+    gap: 10%;
+    font-size: 1rem;
+}
+
+.info-display h3{
+    font-size: 1rem;
+    font-weight: bold;
+}
